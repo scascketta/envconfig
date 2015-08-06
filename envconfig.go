@@ -15,7 +15,6 @@ import (
 
 // ErrInvalidSpecification indicates that a specification is of the wrong type.
 var ErrInvalidSpecification = errors.New("invalid specification must be a struct")
-var ErrRequiredKey = errors.New("required key missing value")
 
 // A ParseError occurs when an environment variable cannot be converted to
 // the type required by a struct field during assignment.
